@@ -4,7 +4,7 @@
 This project focuses on statistical and actuarial modeling of individual claim severity using the `frecomfire` dataset. The analysis assumes that all claims are independent and identically distributed (i.i.d.), allowing for the unconditional modeling of severity through a single global distribution (without covariates). The primary goal is to accurately model heavy-tailed data and estimate extreme risk metrics for commercial fire losses. The workflow utilizes custom maximum likelihood estimations, the construction of complex spliced distributions, and rigorous goodness-of-fit testing tailored for extreme value theory.
 
 ## Documentation & Presentation
-The repository includes a comprehensive presentation (`presentation/Claim_Severity_Presentation_EN.pdf`) that provides:
+The repository includes a comprehensive presentation (`presentation/Claim_Severity_Presentation.pdf`) that provides:
 * **Theoretical Background:** Mathematical formulations of heavy-tailed distributions, Extreme Value Theory (EVT), and risk measures (VaR, ES).
 * **Implementation Details:** A breakdown of the Expectation-Maximization (EM) algorithm, parameter estimation, and threshold selection for spliced models.
 * **Results Analysis:** A visual and quantitative comparison of classical distributions versus spliced models in capturing extreme tail events.
